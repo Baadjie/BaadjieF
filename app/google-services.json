@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1015949862642",
+    "firebase_url": "https://baadjie-pou.firebaseio.com",
+    "project_id": "baadjie-pou",
+    "storage_bucket": "baadjie-pou.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015949862642:android:ab5d1b6e9cfd23ea",
+        "android_client_info": {
+          "package_name": "firebase.android.myinfo.baadjief"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015949862642-cktihmrg8d8g5d9tnh7hlegi033glkmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "firebase.android.myinfo.baadjief",
+            "certificate_hash": "856cc6ccae2d14d41755dd60eef425067f197cbb"
+          }
+        },
+        {
+          "client_id": "1015949862642-mbm3dsoq1sp6unir0a3sr9pmipulgavt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-GSXf2-XMKdeSkZ1BPuShx-PqYUQEBw8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015949862642-mbm3dsoq1sp6unir0a3sr9pmipulgavt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

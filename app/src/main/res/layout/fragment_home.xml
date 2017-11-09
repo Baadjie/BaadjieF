@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/theomen"
+    tools:context="firebase.android.myinfo.baadjief.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="53dp"
+                android:layout_marginTop="27dp"
+                android:text="Welcome to  Baadjie Poultry.
+    "
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="5000dp"
+                android:layout_height="192dp"
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="100dp"
+                android:scaleType="fitXY"
+
+                app:srcCompat="@drawable/bb" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:text="  What would you like to do?"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="38dp"
+                app:srcCompat="@drawable/ab" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/map"
+                android:layout_marginBottom="12dp"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_alignStart="@+id/imageView7" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignEnd="@+id/textView5"
+                android:layout_below="@+id/textView5"
+                android:layout_marginTop="21dp"
+                app:srcCompat="@drawable/ga" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginEnd="19dp"
+                app:srcCompat="@drawable/contac"
+                android:layout_alignTop="@+id/imageView6"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView4"
+                android:layout_below="@+id/imageView4"
+                android:text="    About Us" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageView5"
+                android:layout_below="@+id/imageView5"
+                android:text="Location    " />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginStart="12dp"
+                android:text="Gallery" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageView7"
+                android:layout_below="@+id/imageView7"
+                android:text=" Contact us" />
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
